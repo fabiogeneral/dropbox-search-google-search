@@ -1,0 +1,23 @@
+.base {
+  width: 400px;
+  margin: auto;
+
+  .select {
+    top: 2px;
+    left: 2px;
+    margin-bottom: 8px;
+
+    div[class*='control'] {
+      background-color: transparent;
+      min-height: 1px;
+      height: 40px;
+      border-radius: 40px;
+      padding-left: 10px;
+
+      > div {
+        position: absolute;
+        width: 100%;
+      }
+    }
+  }
+}
